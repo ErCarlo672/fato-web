@@ -1,0 +1,143 @@
+<!--meta
+{"title": "Delegación de {{name}} · Competiciones y clubes · FATO", "description": "Delegación de {{name}} de la FATO: calendario de competiciones y tiradas de club, resultados, instalaciones, clubes y contacto.", "nav": "federacion", "bodyClass": "page-deleg", "scripts": ["data", "../data/deleg-{{slug}}"], "after": ["delegacion"]}
+-->
+<section class="page-hero on-dark deleg-hero" data-deleg="{{slug}}">
+  <svg class="page-hero-rings draw" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="96" stroke-width=".5"/><circle cx="100" cy="100" r="72" stroke-width=".5"/><circle cx="100" cy="100" r="48" stroke-width=".5"/><circle cx="100" cy="100" r="24" stroke-width=".5"/></svg>
+  <span class="deleg-num" aria-hidden="true">{{num}}</span>
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Migas de pan"><a href="index.html">Inicio</a><span>/</span><a href="delegaciones.html">Delegaciones</a><span>/</span><span>{{name}}</span></nav>
+    <p class="eyebrow" style="margin-top:22px">Delegación provincial · {{num}} / 08</p>
+    <h1 class="display deleg-title">{{name}}</h1>
+    <div class="deleg-contact">
+      <a href="mailto:{{email}}"><svg aria-hidden="true"><use href="#i-mail"/></svg>{{email}}</a>
+      {{phones_html}}
+      {{address_html}}
+    </div>
+    <div class="ph-actions">
+      <a class="btn btn--signal" href="#agenda"><svg aria-hidden="true"><use href="#i-cal"/></svg> Competiciones</a>
+      <a class="btn btn--ghost" href="#clubes">Clubes de {{name}}</a>
+      <a class="btn btn--ghost" href="#contacto-delegacion">Contactar</a>
+    </div>
+  </div>
+</section>
+
+<section class="deleg-stats on-dark" aria-label="Cifras de la delegación">
+  <div class="wrap">
+    <div class="dstat"><b data-dstat="upcoming">—</b><span>Próximas competiciones</span></div>
+    <div class="dstat"><b data-dstat="total">—</b><span>Competiciones <span data-year>2026</span></span></div>
+    <div class="dstat"><b data-dstat="clubs">—</b><span>Clubes federados</span></div>
+    <div class="dstat"><b data-dstat="results">—</b><span>Resultados publicados</span></div>
+  </div>
+</section>
+
+<section class="section section--tight" id="proxima">
+  <div class="wrap">
+    <div class="next-card reveal" data-next>
+      <p class="eyebrow">Próxima competición en {{name}}</p>
+      <p class="next-empty">Consultando el calendario…</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight" id="agenda" style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:28px">
+      <div>
+        <p class="eyebrow reveal">Agenda provincial</p>
+        <h2 class="h-xl reveal" style="--d:.08s">Competiciones<br>en {{name}}</h2>
+      </div>
+      <div class="reveal" style="--d:.16s; display:grid; gap:10px; justify-items:end">
+        <span class="live-pill" data-live>Cargando datos…</span>
+        <button class="btn btn--ghost btn--sm" type="button" data-dexport><svg aria-hidden="true"><use href="#i-cal-plus"/></svg> Exportar a mi calendario</button>
+      </div>
+    </div>
+  </div>
+  <div class="toolbar">
+    <div class="wrap">
+      <div class="tb-row">
+        <label class="search"><span class="sr-only">Buscar en la agenda</span><svg aria-hidden="true"><use href="#i-search"/></svg><input type="search" placeholder="Club, modalidad, recinto: pistola, F-Class, Gádor…" data-dq autocomplete="off"></label>
+        <div class="seg" role="group" aria-label="Periodo">
+          <button type="button" aria-pressed="true" data-when="up">Próximas</button>
+          <button type="button" aria-pressed="false" data-when="past">Celebradas</button>
+          <button type="button" aria-pressed="false" data-when="all">Todas</button>
+        </div>
+        <label class="sr-only" for="d-type">Tipo</label>
+        <select class="select" id="d-type" data-dtype>
+          <option value="">Todos los tipos</option>
+          <option value="oficial">Campeonatos y pruebas oficiales</option>
+          <option value="tirada">Tiradas de club</option>
+          <option value="entrenamiento">Entrenamientos controlados</option>
+          <option value="curso">Cursos (licencia F…)</option>
+        </select>
+      </div>
+      <div class="tb-row" style="justify-content:space-between">
+        <div class="chips" role="group" aria-label="Especialidad">
+          <button class="chip" type="button" aria-pressed="false" data-dcat="precision" data-c="precision"><span class="dot"></span>Precisión</button>
+          <button class="chip" type="button" aria-pressed="false" data-dcat="plato" data-c="plato"><span class="dot"></span>Plato</button>
+          <button class="chip" type="button" aria-pressed="false" data-dcat="recorridos" data-c="recorridos"><span class="dot"></span>Recorridos</button>
+          <button class="chip" type="button" aria-pressed="false" data-dcat="historicas" data-c="historicas"><span class="dot"></span>AA. Históricas</button>
+          <button class="chip" type="button" aria-pressed="false" data-dcat="alta" data-c="alta"><span class="dot"></span>Alta Precisión</button>
+          <button class="chip" type="button" aria-pressed="false" data-dcat="fclass" data-c="fclass"><span class="dot"></span>F-Class</button>
+        </div>
+        <label class="toggle"><input type="checkbox" data-dres> Solo con resultados</label>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="result-meta"><span data-dcount>Cargando…</span><button class="link-arrow" type="button" data-dreset style="background:none;border:0;border-bottom:1.5px solid currentColor;cursor:pointer">Limpiar filtros</button></div>
+    <div data-dlist>
+      <noscript><p class="empty">Activa JavaScript para ver la agenda de la delegación o consulta el <a href="calendario.html">calendario general</a>.</p></noscript>
+    </div>
+    <div style="text-align:center; margin-top:8px"><button class="btn btn--ghost" type="button" data-dmore hidden>Mostrar más</button></div>
+  </div>
+</section>
+
+<section class="section section--paper2" id="instalaciones">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Dónde se compite</p>
+        <h2 class="h-xl reveal" style="--d:.08s">Instalaciones</h2>
+      </div>
+      <p class="lead reveal" style="--d:.16s">Recintos que acogen las competiciones de la delegación esta temporada, ordenados por actividad.</p>
+    </div>
+    <div class="venues-grid" data-venues></div>
+  </div>
+</section>
+
+<section class="section" id="clubes">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Directorio provincial</p>
+        <h2 class="h-xl reveal" style="--d:.08s">Clubes de {{name}}</h2>
+      </div>
+      <a class="link-arrow reveal" href="clubes.html?prov={{name_url}}">Abrir en el buscador <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="clubs-grid" data-dclubs></div>
+  </div>
+</section>
+
+<section class="section section--dark on-dark" id="contacto-delegacion">
+  <div class="wrap two-col">
+    <div>
+      <p class="eyebrow reveal">Contacto</p>
+      <h2 class="h-xl reveal" style="--d:.08s">Habla con<br>tu delegación</h2>
+      <p class="lead reveal" style="--d:.16s; margin-top:18px">Licencias, inscripciones, competiciones provinciales o dudas sobre clubes: la delegación de {{name}} te atiende.</p>
+      <div class="people people--dark reveal" style="--d:.2s; margin-top:28px">
+        {{committee_html}}
+      </div>
+      <div class="reveal" style="--d:.24s; margin-top:28px; display:flex; flex-wrap:wrap; gap:10px">
+        <a class="btn btn--signal" href="mailto:{{email}}?subject=Consulta%20Delegaci%C3%B3n%20de%20{{name_url}}"><svg aria-hidden="true"><use href="#i-mail"/></svg> Escribir a {{email}}</a>
+        {{phone_btn}}
+      </div>
+    </div>
+    <div class="reveal" style="--d:.1s">
+      <div class="map map--dark"><iframe title="Mapa: {{name}}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q={{map_q}}&amp;z=12&amp;output=embed"></iframe></div>
+      <nav class="deleg-others" aria-label="Otras delegaciones">
+        <span class="mono">Otras delegaciones</span>
+        {{others_html}}
+      </nav>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,40 @@
+<!--meta
+{"title": "Directorio de clubes de tiro en Andalucía · FATO", "description": "Encuentra tu club de tiro olímpico en Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga o Sevilla, con teléfono, email y dirección.", "nav": "clubes", "scripts": ["data"]}
+-->
+<section class="page-hero on-dark">
+  <svg class="page-hero-rings draw" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="96" stroke-width=".5"/><circle cx="100" cy="100" r="72" stroke-width=".5"/><circle cx="100" cy="100" r="48" stroke-width=".5"/><circle cx="100" cy="100" r="24" stroke-width=".5"/></svg>
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Migas de pan"><a href="index.html">Inicio</a><span>/</span><span>Clubes</span></nav>
+    <h1 class="h-xl">Encuentra<br><span class="accent">tu club</span></h1>
+    <p class="lead">72 clubes federados en las ocho provincias andaluzas. Busca por nombre o localidad y contacta directamente por teléfono o correo.</p>
+  </div>
+</section>
+
+<div class="toolbar">
+  <div class="wrap">
+    <div class="tb-row">
+      <label class="search"><span class="sr-only">Buscar club</span><svg aria-hidden="true"><use href="#i-search"/></svg><input type="search" placeholder="Nombre del club, localidad, IPSC, plato…" data-club-q autocomplete="off"></label>
+    </div>
+    <div class="prov-tabs chips" role="group" aria-label="Provincia" data-club-provs>
+      <button class="chip" type="button" aria-pressed="true" data-prov="">Todas</button>
+      <button class="chip" type="button" aria-pressed="false" data-prov="Almería">Almería</button>
+      <button class="chip" type="button" aria-pressed="false" data-prov="Cádiz">Cádiz</button>
+      <button class="chip" type="button" aria-pressed="false" data-prov="Córdoba">Córdoba</button>
+      <button class="chip" type="button" aria-pressed="false" data-prov="Granada">Granada</button>
+      <button class="chip" type="button" aria-pressed="false" data-prov="Huelva">Huelva</button>
+      <button class="chip" type="button" aria-pressed="false" data-prov="Jaén">Jaén</button>
+      <button class="chip" type="button" aria-pressed="false" data-prov="Málaga">Málaga</button>
+      <button class="chip" type="button" aria-pressed="false" data-prov="Sevilla">Sevilla</button>
+    </div>
+  </div>
+</div>
+
+<section class="section--tight">
+  <div class="wrap">
+    <div class="result-meta"><span data-club-count>Cargando clubes…</span><a class="link-arrow" href="federacion.html#delegaciones">Contactar con tu delegación <svg aria-hidden="true"><use href="#i-arrow"/></svg></a></div>
+    <div class="clubs-grid" data-club-list>
+      <noscript><p class="empty">Activa JavaScript para ver el directorio, o consulta las <a href="federacion.html#delegaciones">delegaciones provinciales</a>.</p></noscript>
+    </div>
+    <p style="margin-top:40px; font-size:.88rem; color:var(--muted)">¿Tu club no aparece o sus datos han cambiado? <a href="contacto.html">Escríbenos</a> y lo actualizamos.</p>
+  </div>
+</section>

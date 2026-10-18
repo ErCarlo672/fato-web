@@ -1,0 +1,73 @@
+<!--meta
+{"title": "Calendario de competiciones 2026 · FATO", "description": "Calendario oficial RFEDETO-FATO 2026: busca competiciones por especialidad, provincia o palabra clave y añádelas a tu agenda.", "nav": "calendario", "scripts": ["data"]}
+-->
+<section class="page-hero on-dark">
+  <svg class="page-hero-rings draw" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="96" stroke-width=".5"/><circle cx="100" cy="100" r="72" stroke-width=".5"/><circle cx="100" cy="100" r="48" stroke-width=".5"/><circle cx="100" cy="100" r="24" stroke-width=".5"/></svg>
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Migas de pan"><a href="index.html">Inicio</a><span>/</span><span>Calendario</span></nav>
+    <h1 class="h-xl">Calendario<br><span class="accent">2026</span></h1>
+    <p class="lead">Programa general de competiciones RFEDETO y FATO (versión 08-06-2026). Filtra por especialidad, provincia o palabra clave, y añade cualquier prueba a tu agenda con un clic.</p>
+    <div class="ph-actions">
+      <a class="btn btn--signal" href="https://fato.es/wp-content/uploads/2026/06/Calendario-2026-RFEDETO-FATO-Version-08-06-2026.pdf" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-download"/></svg> PDF oficial</a>
+      <button class="btn btn--ghost" type="button" data-export-ics><svg aria-hidden="true"><use href="#i-cal-plus"/></svg> Exportar selección (.ics)</button>
+    </div>
+  </div>
+</section>
+
+<div class="toolbar" data-cal-toolbar>
+  <div class="wrap">
+    <div class="tb-row">
+      <label class="search"><span class="sr-only">Buscar competición</span><svg aria-hidden="true"><use href="#i-search"/></svg><input type="search" placeholder="Busca: plato, F-Class, Granada, Copa del Rey…" data-f="q" autocomplete="off"></label>
+      <label class="sr-only" for="f-prov">Provincia</label>
+      <select class="select" id="f-prov" data-f="prov">
+        <option value="">Todas las sedes</option>
+        <option value="andalucia">Solo sedes andaluzas</option>
+        <option>Almería</option><option>Cádiz</option><option>Córdoba</option><option>Granada</option><option>Huelva</option><option>Jaén</option><option>Málaga</option><option>Sevilla</option>
+      </select>
+      <label class="sr-only" for="f-scope">Ámbito</label>
+      <select class="select" id="f-scope" data-f="scope">
+        <option value="">Todos los ámbitos</option>
+        <option value="andalucia">Autonómico (FATO)</option>
+        <option value="nacional">Nacional</option>
+        <option value="internacional">Internacional</option>
+      </select>
+      <div class="seg" role="group" aria-label="Vista">
+        <button type="button" aria-pressed="true" data-view="list"><svg aria-hidden="true"><use href="#i-list"/></svg> Lista</button>
+        <button type="button" aria-pressed="false" data-view="month"><svg aria-hidden="true"><use href="#i-grid"/></svg> Mes</button>
+      </div>
+    </div>
+    <div class="tb-row" style="justify-content:space-between">
+      <div class="chips" role="group" aria-label="Especialidad">
+        <button class="chip" type="button" aria-pressed="false" data-cat="precision" data-c="precision"><span class="dot"></span>Precisión</button>
+        <button class="chip" type="button" aria-pressed="false" data-cat="plato" data-c="plato"><span class="dot"></span>Plato</button>
+        <button class="chip" type="button" aria-pressed="false" data-cat="recorridos" data-c="recorridos"><span class="dot"></span>Recorridos</button>
+        <button class="chip" type="button" aria-pressed="false" data-cat="historicas" data-c="historicas"><span class="dot"></span>AA. Históricas</button>
+        <button class="chip" type="button" aria-pressed="false" data-cat="alta" data-c="alta"><span class="dot"></span>Alta Precisión</button>
+        <button class="chip" type="button" aria-pressed="false" data-cat="fclass" data-c="fclass"><span class="dot"></span>F-Class</button>
+      </div>
+      <label class="toggle"><input type="checkbox" data-f="upcoming" checked> Solo próximas</label>
+    </div>
+  </div>
+</div>
+
+<section class="section--tight">
+  <div class="wrap">
+    <div class="result-meta"><span data-cal-count>Cargando competiciones…</span><button class="link-arrow" type="button" data-reset style="background:none;border:0;border-bottom:1.5px solid currentColor;cursor:pointer">Limpiar filtros</button></div>
+    <div data-cal-list>
+      <noscript><p class="empty">Activa JavaScript para usar el buscador, o descarga el <a href="https://fato.es/wp-content/uploads/2026/06/Calendario-2026-RFEDETO-FATO-Version-08-06-2026.pdf">calendario oficial en PDF</a>.</p></noscript>
+    </div>
+    <div data-cal-month hidden>
+      <div class="cal-nav">
+        <h2 data-month-title>Mes</h2>
+        <div class="navbtns">
+          <button class="round-btn" type="button" data-month-prev aria-label="Mes anterior"><svg aria-hidden="true"><use href="#i-left"/></svg></button>
+          <button class="btn btn--ghost btn--sm" type="button" data-month-today>Hoy</button>
+          <button class="round-btn" type="button" data-month-next aria-label="Mes siguiente"><svg aria-hidden="true"><use href="#i-right"/></svg></button>
+        </div>
+      </div>
+      <div class="cal-grid" data-month-grid role="grid"></div>
+      <div class="day-panel" data-day-panel aria-live="polite"></div>
+    </div>
+    <p style="margin-top:40px; font-size:.88rem; color:var(--muted)">Fechas extraídas del programa oficial. Ante cualquier discrepancia prevalece el documento publicado por la RFEDETO y la FATO; confirma horarios e inscripciones con el club organizador.</p>
+  </div>
+</section>

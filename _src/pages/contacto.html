@@ -1,0 +1,71 @@
+<!--meta
+{"title": "Contacto · FATO", "description": "Contacta con la Federación Andaluza de Tiro Olímpico: sede en el Complejo Deportivo Las Gabias (Granada), teléfono 958 581 376 e info@fato.es.", "nav": "contacto", "scripts": []}
+-->
+<section class="page-hero on-dark">
+  <svg class="page-hero-rings draw" viewBox="0 0 200 200" aria-hidden="true"><circle cx="100" cy="100" r="96" stroke-width=".5"/><circle cx="100" cy="100" r="72" stroke-width=".5"/><circle cx="100" cy="100" r="48" stroke-width=".5"/><circle cx="100" cy="100" r="24" stroke-width=".5"/></svg>
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Migas de pan"><a href="index.html">Inicio</a><span>/</span><span>Contacto</span></nav>
+    <h1 class="h-xl">Hablemos</h1>
+    <p class="lead">Licencias, competiciones, clubes o cualquier duda: escríbenos y te responde la sede o tu delegación provincial.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap contact-grid">
+    <form class="form reveal" novalidate data-contact action="mailto:info@fato.es" method="post" enctype="text/plain">
+      <div class="form-row">
+        <div class="field"><label for="c-name">Nombre</label><input id="c-name" name="nombre" autocomplete="name" required><span class="err" aria-live="polite"></span></div>
+        <div class="field"><label for="c-email">Correo electrónico</label><input id="c-email" name="email" type="email" autocomplete="email" required><span class="err" aria-live="polite"></span></div>
+      </div>
+      <div class="form-row">
+        <div class="field"><label for="c-phone">Teléfono <small>(opcional)</small></label><input id="c-phone" name="telefono" type="tel" autocomplete="tel" inputmode="tel"><span class="err" aria-live="polite"></span></div>
+        <div class="field"><label for="c-prov">Provincia de residencia</label>
+          <select id="c-prov" name="provincia" required>
+            <option value="">Selecciona tu provincia</option>
+            <option data-mail="almeria@fato.es">Almería</option><option data-mail="cadiz@fato.es">Cádiz</option><option data-mail="cordoba@fato.es">Córdoba</option><option data-mail="granada@fato.es">Granada</option><option data-mail="huelva@fato.es">Huelva</option><option data-mail="jaen@fato.es">Jaén</option><option data-mail="malaga@fato.es">Málaga</option><option data-mail="sevilla@fato.es">Sevilla</option><option data-mail="">Fuera de Andalucía</option>
+          </select><span class="err" aria-live="polite"></span></div>
+      </div>
+      <div class="field"><label for="c-topic">Motivo</label>
+        <select id="c-topic" name="motivo">
+          <option>Quiero federarme / información general</option>
+          <option>Licencias y trámites</option>
+          <option>Competiciones y calendario</option>
+          <option>Seguro de accidentes</option>
+          <option>Clubes</option>
+          <option>Jueces, técnicos y formación</option>
+          <option>Otro</option>
+        </select></div>
+      <div class="field"><label for="c-msg">Mensaje</label><textarea id="c-msg" name="mensaje" required minlength="10"></textarea><span class="err" aria-live="polite"></span></div>
+      <label class="check"><input type="checkbox" name="privacidad" required> <span>He leído y acepto la <a href="https://fato.es/politica-de-privacidad/" target="_blank" rel="noopener">Política de Privacidad</a>.</span></label>
+      <label class="check"><input type="checkbox" name="publicidad"> <span>Consiento el uso de mis datos personales para recibir información y publicidad de la FATO.</span></label>
+      <div class="form-status" role="status" data-form-status></div>
+      <div><button class="btn btn--green" type="submit">Enviar mensaje <svg class="arrow" aria-hidden="true"><use href="#i-arrow"/></svg></button></div>
+      <p style="margin:0; font-size:.84rem; color:var(--muted)">Al enviar se abrirá tu aplicación de correo con el mensaje preparado para la sede (y en copia a tu delegación provincial).</p>
+    </form>
+
+    <aside class="contact-card on-dark reveal" style="--d:.1s">
+      <div style="display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap">
+        <h3>Sede de la Federación</h3>
+        <span class="open-now" data-open-now>Horario</span>
+      </div>
+      <div class="c-line"><svg aria-hidden="true"><use href="#i-phone"/></svg><div><small>Teléfono</small><a href="tel:+34958581376">958 581 376</a><br><a href="tel:+34649973803">649 973 803</a> · <a href="tel:+34626153303">626 153 303</a> · <a href="tel:+34690728832">690 728 832</a></div></div>
+      <div class="c-line"><svg aria-hidden="true"><use href="#i-mail"/></svg><div><small>Email</small><a href="mailto:info@fato.es">info@fato.es</a></div></div>
+      <div class="c-line"><svg aria-hidden="true"><use href="#i-pin"/></svg><div><small>Dirección</small>Complejo Deportivo Las Gabias<br>C/ Juan Antonio Samaranch s/n<br>Apdo. de Correos 42 · 18110 Las Gabias (Granada)</div></div>
+      <div class="c-line"><svg aria-hidden="true"><use href="#i-clock"/></svg><div class="hours" style="width:100%"><small>Horario de invierno</small>
+        <div><span>Lunes a jueves</span><b>9:00–14:00 · 16:00–19:00</b></div>
+        <div><span>Viernes</span><b>8:00–15:00</b></div>
+        <small style="margin-top:8px">Horario de verano · 15 jun – 15 sep</small>
+        <div><span>Lunes a viernes</span><b>8:00–15:00</b></div>
+      </div></div>
+      <a class="btn btn--signal" href="https://www.google.com/maps/search/?api=1&amp;query=Complejo+Deportivo+Las+Gabias+Granada" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-map"/></svg> Cómo llegar</a>
+    </aside>
+  </div>
+</section>
+
+<section class="section--tight" style="padding-top:0">
+  <div class="wrap">
+    <div class="map reveal">
+      <iframe title="Mapa: Complejo Deportivo Las Gabias" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Complejo%20Deportivo%20Las%20Gabias%2C%20Granada&amp;z=14&amp;output=embed"></iframe>
+    </div>
+  </div>
+</section>

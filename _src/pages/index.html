@@ -1,0 +1,263 @@
+<!--meta
+{"title": "FATO · Federación Andaluza de Tiro Olímpico", "description": "Federación Andaluza de Tiro Olímpico: calendario de competiciones 2026, especialidades, 72 clubes en 8 provincias, seguro deportivo y noticias del tiro andaluz.", "bodyClass": "page-home", "scripts": ["data"], "preload": "<link rel=\"preload\" as=\"image\" href=\"assets/img/photos/hero.webp\" fetchpriority=\"high\">"}
+-->
+<section class="hero on-dark" data-hero>
+  <div class="hero-media">
+    <picture>
+      <source media="(max-width: 700px)" srcset="assets/img/photos/hero-sm.webp">
+      <img src="assets/img/photos/hero.webp" alt="Tiradora de carabina de aire apuntando en una galería de 10 metros" width="1920" height="1080" fetchpriority="high">
+    </picture>
+  </div>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="reticle" aria-hidden="true">
+    <svg viewBox="0 0 132 132">
+      <circle cx="66" cy="66" r="46" fill="none" stroke="currentColor" stroke-width="1"/>
+      <g class="ring-spin"><circle cx="66" cy="66" r="58" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="3 7" opacity=".7"/></g>
+      <path d="M66 4v38M66 90v38M4 66h38M90 66h38" stroke="currentColor" stroke-width="1"/>
+      <circle cx="66" cy="66" r="2.5" fill="currentColor"/>
+    </svg>
+    <div class="reticle-read"><span data-rx>X 000</span><br><span data-ry>Y 000</span></div>
+  </div>
+
+  <div class="wrap hero-content">
+    <p class="eyebrow">Federación Andaluza de Tiro Olímpico</p>
+    <h1 class="display" style="margin-top:22px">
+      <span class="line"><span>El pulso</span></span>
+      <span class="line"><span>más firme</span></span>
+      <span class="line"><span class="accent">de Andalucía</span></span>
+    </h1>
+    <div class="hero-sub">
+      <p>El tiro olímpico combina habilidad, concentración y precisión. Competición, escuela y clubes en las ocho provincias andaluzas. ¿Te apuntas?</p>
+      <div class="hero-actions">
+        <a class="btn btn--signal" href="calendario.html"><svg aria-hidden="true"><use href="#i-cal"/></svg> Calendario 2026</a>
+        <a class="btn btn--ghost" href="clubes.html">Encuentra tu club <svg class="arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="hero-meta">
+      <div><b data-count="72">72</b><span>Clubes federados</span></div>
+      <div><b data-count="8">8</b><span>Delegaciones</span></div>
+      <div><b data-count="6">6</b><span>Especialidades</span></div>
+      <div><b data-count="193" data-stat="events">193</b><span>Competiciones 2026</span></div>
+    </div>
+  </div>
+  <span class="scroll-cue" aria-hidden="true">Desliza</span>
+</section>
+
+<div class="ticker" aria-label="Próximas competiciones">
+  <div class="ticker-track" data-ticker>
+    <div class="ticker-group">
+      <a href="calendario.html"><time>24–25 OCT</time> Las Gabias · Cto. Andalucía F-Class 50+100 m</a>
+      <a href="calendario.html"><time>07–08 NOV</time> El Puerto de Santa María · Fase final Liga Andaluza AA.HH.</a>
+      <a href="calendario.html"><time>13–15 NOV</time> Jaén · Cto. Andalucía Aire Comprimido</a>
+      <a href="calendario.html"><time>21–22 NOV</time> Camas · Tecnificación F.A.T.O. Aire Comprimido</a>
+      <a href="calendario.html"><time>04–07 DIC</time> Granada · Campeonato de España 10 m</a>
+    </div>
+  </div>
+</div>
+
+<section class="quick" aria-label="Accesos rápidos">
+  <div class="wrap">
+    <div class="quick-grid">
+      <a class="quick-item" href="calendario.html">
+        <span class="q-num">01 <svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+        <div><h3>Calendario 2026</h3><p>Todas las competiciones RFEDETO y FATO, filtrables y exportables.</p></div>
+      </a>
+      <a class="quick-item quick-item--alert" href="seguro.html">
+        <span class="q-num">02 <svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+        <div><h3>Seguro y accidentes</h3><p>Protocolo Allianz-Beiman, teléfono 24 h y parte online.</p></div>
+      </a>
+      <a class="quick-item" href="clubes.html">
+        <span class="q-num">03 <svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+        <div><h3>Directorio de clubes</h3><p>72 clubes con contacto directo, por provincia.</p></div>
+      </a>
+      <a class="quick-item" href="especialidades.html">
+        <span class="q-num">04 <svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+        <div><h3>Normativa y rankings</h3><p>Reglamentos, ayudas 2026 y rankings por especialidad.</p></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="proximos">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Agenda de competición</p>
+        <h2 class="h-xl reveal" style="--d:.08s">Próximas<br>competiciones</h2>
+      </div>
+      <div class="reveal" style="--d:.16s; display:flex; gap:10px; flex-wrap:wrap; align-items:center">
+        <div class="seg" role="group" aria-label="Ámbito">
+          <button type="button" aria-pressed="true" data-upc-scope="all">Todas</button>
+          <button type="button" aria-pressed="false" data-upc-scope="andalucia">Solo Andalucía</button>
+        </div>
+        <a class="link-arrow" href="calendario.html">Calendario completo <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+    <div class="events-grid" data-upcoming>
+      <article class="event-card" data-scope="andalucia">
+        <div class="event-date"><b>24</b><span>Oct</span></div>
+        <div class="event-body"><h3>CTO. Andalucía F-Class 50+100 m · Combinada</h3><p class="event-loc"><svg aria-hidden="true"><use href="#i-pin"/></svg>Las Gabias (Granada)</p></div>
+      </article>
+      <article class="event-card" data-scope="andalucia">
+        <div class="event-date"><b>07</b><span>Nov</span></div>
+        <div class="event-body"><h3>Fase final Liga Andaluza AA.HH.</h3><p class="event-loc"><svg aria-hidden="true"><use href="#i-pin"/></svg>El Puerto de Santa María (Cádiz)</p></div>
+      </article>
+      <article class="event-card" data-scope="andalucia">
+        <div class="event-date"><b>13</b><span>Nov</span></div>
+        <div class="event-body"><h3>CTO. Andalucía Aire Comprimido</h3><p class="event-loc"><svg aria-hidden="true"><use href="#i-pin"/></svg>Jaén</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark on-dark" id="especialidades">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Seis disciplinas, un mismo gesto</p>
+        <h2 class="h-xl reveal" style="--d:.08s">Especialidades</h2>
+      </div>
+      <p class="lead reveal" style="--d:.16s">Del silencio de la galería de 10 metros al estruendo del foso. Elige la modalidad que encaja contigo y consulta su normativa y rankings.</p>
+    </div>
+    <div class="spec-grid">
+      <a class="spec reveal" href="especialidades.html#precision">
+        <div class="spec-img"><img src="assets/img/photos/precision.webp" alt="" loading="lazy" width="1600" height="1067"></div>
+        <div class="spec-top"><span class="spec-num">01 / 06</span><svg class="spec-icon" aria-hidden="true"><use href="#p-precision"/></svg></div>
+        <div><h3>Precisión</h3><p>Blanco fijo a distancias de 10 a 300 metros, con pistola y carabina de pequeño y gran calibre.</p><span class="spec-more">Descubrir <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="spec reveal" style="--d:.06s" href="especialidades.html#plato">
+        <div class="spec-img"><img src="assets/img/photos/plato2.webp" alt="" loading="lazy" width="1600" height="1065"></div>
+        <div class="spec-top"><span class="spec-num">02 / 06</span><svg class="spec-icon" aria-hidden="true"><use href="#p-plato"/></svg></div>
+        <div><h3>Plato</h3><p>Platos de arcilla lanzados a más de 100 km/h desde distintos ángulos: foso, skeet y sus variantes.</p><span class="spec-more">Descubrir <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="spec reveal" style="--d:.12s" href="especialidades.html#recorridos">
+        <div class="spec-top"><span class="spec-num">03 / 06</span><svg class="spec-icon" aria-hidden="true"><use href="#p-recorridos"/></svg></div>
+        <div><h3>Recorridos de Tiro</h3><p>Modalidad dinámica: desplazamiento, cambios de posición y blancos múltiples contra el reloj.</p><span class="spec-more">Descubrir <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="spec reveal" href="especialidades.html#historicas">
+        <div class="spec-img"><img src="assets/img/photos/historicas.webp" alt="" loading="lazy" width="1600" height="1200"></div>
+        <div class="spec-top"><span class="spec-num">04 / 06</span><svg class="spec-icon" aria-hidden="true"><use href="#p-historicas"/></svg></div>
+        <div><h3>Armas Históricas</h3><p>Réplicas de armas antiguas y pólvora negra: la tradición convertida en competición.</p><span class="spec-more">Descubrir <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="spec reveal" style="--d:.06s" href="especialidades.html#alta">
+        <div class="spec-img"><img src="assets/img/photos/alta.webp" alt="" loading="lazy" width="1600" height="1067"></div>
+        <div class="spec-top"><span class="spec-num">05 / 06</span><svg class="spec-icon" aria-hidden="true"><use href="#p-alta"/></svg></div>
+        <div><h3>Alta Precisión</h3><p>Precisión extrema a larga distancia con rifles especializados y equipamiento avanzado.</p><span class="spec-more">Descubrir <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+      <a class="spec reveal" style="--d:.12s" href="especialidades.html#fclass">
+        <div class="spec-img"><img src="assets/img/photos/fclass.webp" alt="" loading="lazy" width="1600" height="1065"></div>
+        <div class="spec-top"><span class="spec-num">06 / 06</span><svg class="spec-icon" aria-hidden="true"><use href="#p-fclass"/></svg></div>
+        <div><h3>F-Class</h3><p>Larga distancia en posición tendido, con rifles de alta potencia y visores telescópicos.</p><span class="spec-more">Descubrir <svg aria-hidden="true"><use href="#i-arrow"/></svg></span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="federacion">
+  <div class="wrap">
+    <div class="split">
+      <div>
+        <p class="eyebrow reveal">La federación en cifras</p>
+        <h2 class="h-xl reveal" style="--d:.08s">Ocho provincias.<br><span class="accent">Un equipo.</span></h2>
+        <p class="lead reveal" style="--d:.16s; margin-top:20px">Cada delegación provincial acompaña a sus clubes en el día a día: licencias, competiciones locales y formación. Pulsa una provincia para ver sus clubes o <a href="delegaciones.html">consulta la agenda de cada delegación</a>.</p>
+        <div class="prov-bars reveal" style="--d:.2s; margin-top:32px" data-prov-bars>
+          <a class="pbar" href="clubes.html?prov=Almer%C3%ADa"><span>Almería</span><i style="--w:100%"></i><b>19</b></a>
+          <a class="pbar" href="clubes.html?prov=Sevilla"><span>Sevilla</span><i style="--w:79%"></i><b>15</b></a>
+          <a class="pbar" href="clubes.html?prov=Granada"><span>Granada</span><i style="--w:74%"></i><b>14</b></a>
+          <a class="pbar" href="clubes.html?prov=C%C3%A1diz"><span>Cádiz</span><i style="--w:37%"></i><b>7</b></a>
+          <a class="pbar" href="clubes.html?prov=C%C3%B3rdoba"><span>Córdoba</span><i style="--w:37%"></i><b>7</b></a>
+          <a class="pbar" href="clubes.html?prov=M%C3%A1laga"><span>Málaga</span><i style="--w:37%"></i><b>7</b></a>
+          <a class="pbar" href="clubes.html?prov=Ja%C3%A9n"><span>Jaén</span><i style="--w:11%"></i><b>2</b></a>
+          <a class="pbar" href="clubes.html?prov=Huelva"><span>Huelva</span><i style="--w:5%"></i><b>1</b></a>
+        </div>
+      </div>
+      <div class="split-media reveal" style="--d:.1s">
+        <img src="assets/img/photos/range.webp" alt="Galería de tiro olímpico cubierta con puestos de precisión" loading="lazy" width="1600" height="1200">
+        <div class="badge-float">
+          <svg aria-hidden="true"><use href="#i-target"/></svg>
+          <div><b>Granada, sede de la Copa del Mundo ISSF</b><span>Rifle y pistola · 5–13 de abril de 2026</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="stats" style="margin-top:clamp(56px,8vw,96px)">
+      <div class="stat reveal"><b data-count="193" data-stat="events">193</b><span>Competiciones en el calendario</span><small>Programa RFEDETO-FATO 2026</small></div>
+      <div class="stat reveal" style="--d:.06s"><b data-count="32" data-stat="andalucia">32</b><span>Pruebas autonómicas</span><small>Campeonatos, copas y ligas andaluzas</small></div>
+      <div class="stat reveal" style="--d:.12s"><b data-count="72">72</b><span>Clubes en el directorio</span><small>Con contacto directo</small></div>
+      <div class="stat reveal" style="--d:.18s"><b data-count="4">4</b><span>Oros internacionales</span><small>Tiradores andaluces · septiembre 2026</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--paper2" id="seguro">
+  <div class="wrap">
+    <div class="insurance on-dark reveal">
+      <div class="insurance-main">
+        <p class="eyebrow">Seguro de accidentes deportivos · Allianz-Beiman</p>
+        <h2 class="h-l" style="margin-top:16px">¿Has sufrido un accidente deportivo?</h2>
+        <p class="warn"><svg aria-hidden="true"><use href="#i-alert"/></svg> El parte debe comunicarse en un plazo máximo de 7 días</p>
+        <p class="mono" style="font-size:.78rem; letter-spacing:.12em; color:var(--muted-inv); margin:0">TELÉFONO DE ATENCIÓN 24 H</p>
+        <a class="insurance-phone" href="tel:+34677808817">677 808 817</a>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:24px">
+          <a class="btn btn--signal" href="https://federados.clinicabeiman.es/" target="_blank" rel="noopener">Comunicar parte de accidente <svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></a>
+          <a class="btn btn--ghost" href="seguro.html">Ver protocolo paso a paso</a>
+        </div>
+      </div>
+      <div class="insurance-side">
+        <p class="mono" style="font-size:.72rem; letter-spacing:.14em; color:var(--muted-inv); margin:0 0 4px">DOCUMENTACIÓN</p>
+        <a class="doc-link" href="mailto:info@fato.es?subject=Solicitud%3A%20Protocolo%20general%20de%20accidente%20deportivo"><span class="d-l"><svg aria-hidden="true"><use href="#i-file"/></svg><span>Protocolo general<br><small>SOLICITAR POR EMAIL</small></span></span><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
+        <a class="doc-link" href="mailto:info@fato.es?subject=Solicitud%3A%20Resumen%20del%20protocolo%20de%20accidente"><span class="d-l"><svg aria-hidden="true"><use href="#i-file"/></svg><span>Resumen del protocolo<br><small>SOLICITAR POR EMAIL</small></span></span><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
+        <a class="doc-link" href="mailto:info@fato.es?subject=Solicitud%3A%20Cuadro%20m%C3%A9dico%20concertado"><span class="d-l"><svg aria-hidden="true"><use href="#i-file"/></svg><span>Cuadro médico<br><small>SOLICITAR POR EMAIL</small></span></span><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
+        <a class="doc-link" href="mailto:info@fato.es?subject=Solicitud%3A%20P%C3%B3liza%20de%20seguro%20de%20accidentes"><span class="d-l"><svg aria-hidden="true"><use href="#i-file"/></svg><span>Póliza de seguro<br><small>SOLICITAR POR EMAIL</small></span></span><svg aria-hidden="true"><use href="#i-mail"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="noticias">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow reveal">Actualidad</p>
+        <h2 class="h-xl reveal" style="--d:.08s">Andalucía<br>en el podio</h2>
+      </div>
+      <a class="link-arrow reveal" href="noticias.html">Todas las noticias <svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="news-grid">
+      <a class="news-card news-card--feature reveal" href="https://fato.es/2026/09/24/irene-del-rey-ruiz-campeona-copa-mundo-junior/" target="_blank" rel="noopener">
+        <div class="n-top"><span>24 sep 2026 · Granada</span><svg class="n-medal" aria-hidden="true"><use href="#i-medal"/></svg></div>
+        <div><h3>Irene del Rey Ruiz, campeona de la Copa del Mundo Junior</h3><p>Oro internacional para la tiradora de la delegación granadina.</p></div>
+        <span class="n-foot">Leer noticia <svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+      </a>
+      <a class="news-card reveal" style="--d:.06s" href="https://fato.es/2026/09/17/isabel-maria-lopez-elvira-campeona-del-mundo-w-s-p-s-en-carabina-aire-de-pie-sh-vis/" target="_blank" rel="noopener">
+        <div class="n-top"><span>17 sep 2026</span><svg class="n-medal" aria-hidden="true"><use href="#i-medal"/></svg></div>
+        <div><h3>Isabel María López Elvira, campeona del mundo WSPS</h3><p>La jiennense de 18 años, oro en carabina aire de pie (SH-VIS).</p></div>
+        <span class="n-foot">Leer noticia <svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+      </a>
+      <a class="news-card reveal" style="--d:.12s" href="https://fato.es/2026/09/17/record-del-mundo-para-brinas-mora/" target="_blank" rel="noopener">
+        <div class="n-top"><span>17 sep 2026</span><svg class="n-medal" aria-hidden="true"><use href="#i-medal"/></svg></div>
+        <div><h3>Récord del mundo para Briñas Mora</h3><p>El granadino Melitón Antonio Briñas Mora logra el oro y el récord mundial.</p></div>
+        <span class="n-foot">Leer noticia <svg aria-hidden="true"><use href="#i-arrow-ur"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--green on-dark join" id="federarse">
+  <svg class="join-target draw" viewBox="0 0 200 200" aria-hidden="true">
+    <circle cx="100" cy="100" r="96" stroke-width=".6"/><circle cx="100" cy="100" r="78" stroke-width=".6"/><circle cx="100" cy="100" r="60" stroke-width=".6"/><circle cx="100" cy="100" r="42" stroke-width=".6"/><circle cx="100" cy="100" r="24" stroke-width=".6"/><circle cx="100" cy="100" r="8" stroke-width=".6"/>
+  </svg>
+  <div class="wrap">
+    <p class="eyebrow reveal">Únete</p>
+    <h2 class="h-xl reveal" style="--d:.08s; max-width:14ch">Disfruta de las ventajas de ser federado</h2>
+    <p class="lead reveal" style="--d:.16s; margin-top:20px">Cursos de perfeccionamiento, inscripciones y trámites online, seguro deportivo y acceso a todo el calendario oficial.</p>
+    <div class="steps">
+      <div class="step reveal"><h3>Elige tu club</h3><p>Busca en el directorio el club más cercano y la especialidad que te interesa.</p></div>
+      <div class="step reveal" style="--d:.08s"><h3>Tramita tu licencia</h3><p>Tu club o tu delegación provincial te guían en el alta y la documentación.</p></div>
+      <div class="step reveal" style="--d:.16s"><h3>Entrena y compite</h3><p>Escuela, tecnificación y competiciones locales, autonómicas y nacionales.</p></div>
+    </div>
+    <div class="reveal" style="margin-top:36px; display:flex; gap:12px; flex-wrap:wrap">
+      <a class="btn btn--signal" href="clubes.html">Buscar club <svg class="arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn--ghost" href="contacto.html">Pedir información</a>
+    </div>
+  </div>
+</section>

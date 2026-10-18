@@ -1,0 +1,977 @@
+[
+{
+"start": "2026-01-07",
+"end": "2026-01-13",
+"raw": "Sant Cugat 10m. Training Camp Juniors"
+},
+{
+"start": "2026-01-14",
+"end": "2026-01-19",
+"raw": "Ruse 10m. Grand Prix Ruse"
+},
+{
+"start": "2026-01-20",
+"end": "2026-01-25",
+"raw": "Munich HN Cup Munich"
+},
+{
+"start": "2026-01-29",
+"end": "2026-01-30",
+"raw": "USA Handgun Extreme Open"
+},
+{
+"start": "2026-01-30",
+"end": "2026-02-01",
+"raw": "Logroño 10m. Copa Federacion x2 Pistola-Rifle"
+},
+{
+"start": "2026-02-01",
+"end": "2026-02-08",
+"raw": "Burgas (Bulgaria) 10m. Cto de Europa U/16-U/18"
+},
+{
+"start": "2026-02-01",
+"end": "2026-02-01",
+"raw": "Vera (Almería) Foso Universal COPA ANDALUCIA F.U."
+},
+{
+"start": "2026-02-05",
+"end": "2026-02-08",
+"raw": "Naquera/Cheste AA.HH. 2ª Fase Copa Presidente Cheste Plato"
+},
+{
+"start": "2026-02-06",
+"end": "2026-02-07",
+"raw": "Tarrasa PCC 1ª Fase"
+},
+{
+"start": "2026-02-06",
+"end": "2026-02-08",
+"raw": "Granada F-Class Rimfire 100m. Campeonato de España"
+},
+{
+"start": "2026-02-08",
+"end": "2026-02-15",
+"raw": "Burgas (Bulgaria) 10m. Cto de Europa Juniors"
+},
+{
+"start": "2026-02-12",
+"end": "2026-02-15",
+"raw": "Granada Armas Olímpicas Copa del Federación x2 *+P.Libre y C.Tendido x1"
+},
+{
+"start": "2026-02-13",
+"end": "2026-02-15",
+"raw": "Murcia 10m. Copa del Rey x2 Pistola-Rifle"
+},
+{
+"start": "2026-02-13",
+"end": "2026-02-15",
+"raw": "Las Gabias (Granada) FClass 100 y 300 m. CTO. ANDALUCIA FCLASS 100 Y 300 M."
+},
+{
+"start": "2026-02-13",
+"end": "2026-02-15",
+"raw": "Granada 300m. Campeonato de España Rifle Grueso Calibre"
+},
+{
+"start": "2026-02-13",
+"end": "2026-02-15",
+"raw": "Valladolid Foso Olimpico Copa Federación"
+},
+{
+"start": "2026-02-13",
+"end": "2026-02-15",
+"raw": "Granada Skeet Sin Premio"
+},
+{
+"start": "2026-02-14",
+"end": "2026-02-14",
+"raw": "Camas (Sevilla) RRTT Arma Corta 1ª FASE ANDALUZA RR.TT."
+},
+{
+"start": "2026-02-14",
+"end": "2026-02-14",
+"raw": "Córdoba RRTT Arma Corta 2ª FASE ANDALUZA RR.TT."
+},
+{
+"start": "2026-02-15",
+"end": "2026-02-15",
+"raw": "Camas (Sevilla) AA.HH. 1ª FASE LIGA ANDALUZA AA.HH."
+},
+{
+"start": "2026-02-18",
+"end": "2026-02-22",
+"raw": "Granada 10/25/50m. Training Camp"
+},
+{
+"start": "2026-02-19",
+"end": "2026-02-21",
+"raw": "Granada Handgun 1ª Fase Copa Presidente"
+},
+{
+"start": "2026-02-20",
+"end": "2026-02-22",
+"raw": "Algarve Handgun Algarve Cup"
+},
+{
+"start": "2026-02-20",
+"end": "2026-02-22",
+"raw": "Náquera (Valencia) F-Class 200m. Campeonato de España"
+},
+{
+"start": "2026-02-21",
+"end": "2026-02-22",
+"raw": "Las Gabias (Granada) Fusil 300 m. CTO. ANDALUCIA FUSIL 300 M."
+},
+{
+"start": "2026-02-21",
+"end": "2026-02-22",
+"raw": "Jaén Pistola 9 mm CTO. ANDALUCIA PISTOLA 9 MM"
+},
+{
+"start": "2026-02-21",
+"end": "2026-02-22",
+"raw": "El Pto. Sta. Mª (Cádiz) Pistola Fuego Central CTO. ANDALUCIA PISTOLA F. CENTRAL"
+},
+{
+"start": "2026-02-27",
+"end": "2026-03-01",
+"raw": "Naquera BR-50 Copa federación"
+},
+{
+"start": "2026-02-27",
+"end": "2026-03-08",
+"raw": "Yerevan (Armenia) 10m. Cto de Europa"
+},
+{
+"start": "2026-02-27",
+"end": "2026-02-27",
+"raw": "Murcia 10 y 50m. G.P.I. Murcia Pist. 10m. Carabinas y P.libre"
+},
+{
+"start": "2026-02-27",
+"end": "2026-02-27",
+"raw": "Alicante BR-50 Aire Copa de España"
+},
+{
+"start": "2026-02-27",
+"end": "2026-02-27",
+"raw": "Mollet Foso Universal Copa de España"
+},
+{
+"start": "2026-02-28",
+"end": "2026-03-01",
+"raw": "Villa Nueva Gallegos Foso Universal Copa Presidente"
+},
+{
+"start": "2026-03-25",
+"end": "2026-04-03",
+"raw": "Tanger (Marruecos) Trap/Skeet ISSF WC"
+},
+{
+"start": "2026-03-29",
+"end": "2026-03-29",
+"raw": "Carmona (Sevilla) Foso Olímpico COPA ANDALUCIA F.O."
+},
+{
+"start": "2026-04-02",
+"end": "2026-04-02",
+"raw": "D 5"
+},
+{
+"start": "2026-04-02",
+"end": "2026-04-05",
+"raw": "Trasona P. Velocidad El Bollo ** NP"
+},
+{
+"start": "2026-04-05",
+"end": "2026-04-13",
+"raw": "Granada 10/25/50m. World Cup Rifle y Pistola ISSF"
+},
+{
+"start": "2026-04-09",
+"end": "2026-04-12",
+"raw": "Zaragoza BR-50 AIRE VP, VL Copa del Rey Org. Fed. Aragonesa"
+},
+{
+"start": "2026-04-09",
+"end": "2026-04-11",
+"raw": "Huesca Handgun 2ª Fase Copa Presidente"
+},
+{
+"start": "2026-04-10",
+"end": "2026-04-12",
+"raw": "Extremadura Foso Olímpico Cto. España Categorias"
+},
+{
+"start": "2026-04-10",
+"end": "2026-04-11",
+"raw": "Camas (Sevilla) 10 m. JJPP TECNIFICACION A.C. JJ.PP."
+},
+{
+"start": "2026-04-12",
+"end": "2026-04-12",
+"raw": "Huesca PCC 2ª Fase"
+},
+{
+"start": "2026-04-12",
+"end": "2026-04-12",
+"raw": "Camas (Sevilla) 10 m. JJPP CTO. ANDALUCIA A.C. JOV. PROMESAS"
+},
+{
+"start": "2026-04-16",
+"end": "2026-04-19",
+"raw": "Murcia Armas deportivas Copa Federación"
+},
+{
+"start": "2026-04-17",
+"end": "2026-04-19",
+"raw": "Elche AA.HH. 3ª Fase Copa Presidente"
+},
+{
+"start": "2026-04-17",
+"end": "2026-04-19",
+"raw": "Elizondo Skeet Copa del Rey"
+},
+{
+"start": "2026-04-17",
+"end": "2026-04-19",
+"raw": "Chiloeches PRS Rimfire 50m. Campeonato de España"
+},
+{
+"start": "2026-04-18",
+"end": "2026-04-18",
+"raw": "Las Gabias (Granada) RRTT Arma Corta 3ª FASE ANDALUZA RR.TT."
+},
+{
+"start": "2026-04-19",
+"end": "2026-04-19",
+"raw": "Las Gabias (Granada) Foso Olímpico CTO. ANDALUCIA CATEG. F.O."
+},
+{
+"start": "2026-04-19",
+"end": "2026-04-27",
+"raw": "El Cairo 10/25/50m. Shotgun World Cup Juniors"
+},
+{
+"start": "2026-04-23",
+"end": "2026-04-26",
+"raw": "Granada Armas Olímpicas Copa del Rey x2 *+P.Libre y C.Tendido x1"
+},
+{
+"start": "2026-04-24",
+"end": "2026-04-26",
+"raw": "Amposta BR-50 Copa Presidente"
+},
+{
+"start": "2026-04-24",
+"end": "2026-04-26",
+"raw": "Valladolid Foso Universal Copa del Rey"
+},
+{
+"start": "2026-04-29",
+"end": "2026-05-03",
+"raw": "Pilsen (Rep. Checa) 10/25/50m. G.P. Liberación"
+},
+{
+"start": "2026-04-30",
+"end": "2026-05-06",
+"raw": "Osijek (Croacia) 300m. Cto. de Europa"
+},
+{
+"start": "2026-04-30",
+"end": "2026-05-03",
+"raw": "Barcelona Armas Deportivas Copa Presidente Std. F.Central, 9mm."
+},
+{
+"start": "2026-04-30",
+"end": "2026-05-03",
+"raw": "Barcelona Armas Deportivas Copa Presidente Tendido y P. Libre"
+},
+{
+"start": "2026-05-01",
+"end": "2026-05-03",
+"raw": "Torres de Segre F-Class Rimfire 200m. Campeonato de España"
+},
+{
+"start": "2026-05-01",
+"end": "2026-05-03",
+"raw": "Náquera (Valencia) BR-50 Aire Campeonato de España"
+},
+{
+"start": "2026-05-01",
+"end": "2026-05-03",
+"raw": "Granada Foso Olímpico Cto. España Absoluto"
+},
+{
+"start": "2026-05-01",
+"end": "2026-05-03",
+"raw": "Murcia Handgun Copa F. C. Presidente CANCELADA"
+},
+{
+"start": "2026-05-01",
+"end": "2026-05-03",
+"raw": "Zamora 10m. Aso. Lucha contra el cancer ** NP"
+},
+{
+"start": "2026-05-02",
+"end": "2026-05-11",
+"raw": "Almaty (Kazajistan) Trap / Skeet World Cup"
+},
+{
+"start": "2026-05-06",
+"end": "2026-05-21",
+"raw": "Osijek (Croacia) 25/50m. Cto. de Europa"
+},
+{
+"start": "2026-05-07",
+"end": "2026-05-10",
+"raw": "Francia F-Class King of 1 Mile Canjuers"
+},
+{
+"start": "2026-05-08",
+"end": "2026-05-10",
+"raw": "Alemania Shotgun Benelle German National"
+},
+{
+"start": "2026-05-08",
+"end": "2026-05-10",
+"raw": "Montsia AA.HH. 4ª Fase Copa Presidente"
+},
+{
+"start": "2026-05-08",
+"end": "2026-05-10",
+"raw": "Sánsoain Doble Trap Campeonato de España Absoluto y Categorías"
+},
+{
+"start": "2026-05-08",
+"end": "2026-05-10",
+"raw": "Sánsoain Mini Foso Campeonato de España Absoluto y Categorías"
+},
+{
+"start": "2026-05-08",
+"end": "2026-05-10",
+"raw": "Gádor (Almería) Pistola Standard CTO. ANDALUCIA PISTOLA STANDARD"
+},
+{
+"start": "2026-05-08",
+"end": "2026-05-10",
+"raw": "Gádor (Almería) Pist. Velocidad Militar CTO. ANDALUCIA PISTOLA VELOC. MILITAR"
+},
+{
+"start": "2026-05-08",
+"end": "2026-05-10",
+"raw": "Gádor (Almería) Aire Stand. / Aire Veloc. CTO. ANDALUCIA PIST. AIRE STAND. Y VEL. 10 M."
+},
+{
+"start": "2026-05-09",
+"end": "2026-05-10",
+"raw": "Ensidesa Mini Rifle 1ª Fase"
+},
+{
+"start": "2026-05-14",
+"end": "2026-05-17",
+"raw": "As Pontes Handgun 3ª Fase Copa Presidente"
+},
+{
+"start": "2026-05-14",
+"end": "2026-05-17",
+"raw": "Murcia 10m./50m. Copa Iberica 10m.-Pistola Libre-Tendido"
+},
+{
+"start": "2026-05-14",
+"end": "2026-05-17",
+"raw": "Murcia 10m. Cto. España Jovenes Promesas Edad Escolar U-16, U-18, U-23"
+},
+{
+"start": "2026-05-14",
+"end": "2026-05-17",
+"raw": "Murcia 10m. JJ.PP. Cto. de España Sub 23"
+},
+{
+"start": "2026-05-14",
+"end": "2026-05-21",
+"raw": "Osijek (Croacia) Shotgun Cto. de Europa U18"
+},
+{
+"start": "2026-05-15",
+"end": "2026-05-17",
+"raw": "Extremadura Foso Universal Cto. España Categorias Trujillano"
+},
+{
+"start": "2026-05-15",
+"end": "2026-05-17",
+"raw": "Parga F-Class 600yd Cto. Esp. y C. Presid. Produc. Org. C. Agarto"
+},
+{
+"start": "2026-05-16",
+"end": "2026-05-17",
+"raw": "Polonia Shotgun Gryf Shotgun Cop 25"
+},
+{
+"start": "2026-05-16",
+"end": "2026-05-17",
+"raw": "El Puerto Sta. Mª (Cádiz) AA.HH. CTO. ANDALUCIA AA.HH."
+},
+{
+"start": "2026-05-22",
+"end": "2026-05-24",
+"raw": "Trasona BR-50 Copa del Rey"
+},
+{
+"start": "2026-05-23",
+"end": "2026-05-24",
+"raw": "Camas (Sevilla) FClass 50 m. CTO. ANDALUCIA FCLASS 50 M."
+},
+{
+"start": "2026-05-24",
+"end": "2026-05-24",
+"raw": "Jarapalos (Málaga) Foso Universal CTO. ANDALUCIA CATEG. F.U."
+},
+{
+"start": "2026-05-24",
+"end": "2026-05-31",
+"raw": "Munich 10/25/50m. World Cup"
+},
+{
+"start": "2026-05-26",
+"end": "2026-05-31",
+"raw": "Chateauroux (Francia) Trap / Skeet Grand Prix de Francia"
+},
+{
+"start": "2026-05-26",
+"end": "2026-06-07",
+"raw": "Todi (Italia) FO / Skeet Emir Cup"
+},
+{
+"start": "2026-05-28",
+"end": "2026-05-31",
+"raw": "Granada AA.HH. Campeonato de España"
+},
+{
+"start": "2026-05-28",
+"end": "2026-05-31",
+"raw": "Mollet Olimpicas 10/25/50m. Copa España"
+},
+{
+"start": "2026-05-28",
+"end": "2026-05-31",
+"raw": "Rep. Checa Handgub - PCC XVII xtreme Euro Open"
+},
+{
+"start": "2026-05-29",
+"end": "2026-05-31",
+"raw": "Granada Foso Olímpico Cto. España Jovenes Promesas Edad Escolar U-16, U-18, U-23"
+},
+{
+"start": "2026-05-30",
+"end": "2026-05-31",
+"raw": "Valladolid Skeet Cto. Esp. Absoluto y Categ."
+},
+{
+"start": "2026-05-31",
+"end": "2026-05-31",
+"raw": "Entrego Standard Memorial Julio de las Alas ** NP"
+},
+{
+"start": "2026-06-05",
+"end": "2026-06-07",
+"raw": "Camas (Sevilla) Armas Olimpicas CTO. ANDALUCIA ARMAS OLIMPICAS Velocidad, Deportiva y Carab. 3 Posic."
+},
+{
+"start": "2026-06-05",
+"end": "2026-06-07",
+"raw": "Camas (Sevilla) Pist. Libre y Carab. Tendido CTO. ANDALUCIA PIST. LIBRE Y CARAB. TENDIDO"
+},
+{
+"start": "2026-06-05",
+"end": "2026-06-07",
+"raw": "Camas (Sevilla) Pistola Standard Nacional CTO. ANDALUCIA PIST. STANDARD NAC."
+},
+{
+"start": "2026-06-06",
+"end": "2026-06-06",
+"raw": "Córdoba RRTT Arma Corta 4ª FASE ANDALUZA RR.TT."
+},
+{
+"start": "2026-06-06",
+"end": "2026-06-07",
+"raw": "Zaragoza Trap 5 Campeonato del Mundo"
+},
+{
+"start": "2026-06-07",
+"end": "2026-06-14",
+"raw": "Hungria Handgun European Championship"
+},
+{
+"start": "2026-06-10",
+"end": "2026-06-14",
+"raw": "Granada 10/25/50m. F.O. Training Camp Juniors"
+},
+{
+"start": "2026-06-12",
+"end": "2026-06-14",
+"raw": "Chiloeches F-Class Rimfire 50m. Campeonato de España"
+},
+{
+"start": "2026-06-12",
+"end": "2026-06-14",
+"raw": "Toledo Foso Olímpico Copa de España La Bastida"
+},
+{
+"start": "2026-06-13",
+"end": "2026-06-14",
+"raw": "Media Naranja Skeet Copa Presidente"
+},
+{
+"start": "2026-06-14",
+"end": "2026-06-14",
+"raw": "Córdoba AA.HH. 2ª FASE LIGA ANDALUZA AA.HH."
+},
+{
+"start": "2026-06-16",
+"end": "2026-06-26",
+"raw": "Suhl 10/25/50 Trap / Skeet WCH Juniors Shotgun"
+},
+{
+"start": "2026-06-18",
+"end": "2026-06-21",
+"raw": "Granada Armas Olimpicas Copa Presidente x2 * + 10m. x1"
+},
+{
+"start": "2026-06-19",
+"end": "2026-06-21",
+"raw": "Granada Foso Universal Campeonato de España Absoluto"
+},
+{
+"start": "2026-06-19",
+"end": "2026-06-21",
+"raw": "Tarragona 300m. Warmin y R.R. Copa Presidente Rifle Grueso Calibre"
+},
+{
+"start": "2026-06-26",
+"end": "2026-06-28",
+"raw": "Granada Foso Universal Campeonato del Mundo"
+},
+{
+"start": "2026-06-26",
+"end": "2026-06-28",
+"raw": "Santander 10m./9mm./Lib/Carb T. Int. Com. Aut. Cantabria P. Libre/Carabinas ** NP"
+},
+{
+"start": "2026-06-26",
+"end": "2026-06-28",
+"raw": "Korinthos Shotgun World Shoot"
+},
+{
+"start": "2026-06-26",
+"end": "2026-06-28",
+"raw": "Granada Handgun Copa Glock"
+},
+{
+"start": "2026-06-26",
+"end": "2026-06-28",
+"raw": "Grecia Shotgun shotgun World Shoot Test Event"
+},
+{
+"start": "2026-06-27",
+"end": "2026-06-28",
+"raw": "Córdoba PFC, Deport., Libre y Tendido TECNIFICACIÓN F.A.T.O"
+},
+{
+"start": "2026-06-29",
+"end": "2026-07-12",
+"raw": "Todi (Italia) FO / Skeet Green Cup"
+},
+{
+"start": "2026-07-02",
+"end": "2026-07-05",
+"raw": "Naquera Deportivas 10/25m. Copa del Rey"
+},
+{
+"start": "2026-07-03",
+"end": "2026-07-13",
+"raw": "Lonato Trap / Skeet World Cup"
+},
+{
+"start": "2026-07-04",
+"end": "2026-07-05",
+"raw": "Francia Shotgun French National Shotgun"
+},
+{
+"start": "2026-07-05",
+"end": "2026-07-05",
+"raw": "Las Gabias (Granada) Foso Olímpico CTO. ANDALUCIA EQUIPOS PROV. F.O."
+},
+{
+"start": "2026-07-09",
+"end": "2026-07-12",
+"raw": "Bracara Handgun Bracara (Portugal)"
+},
+{
+"start": "2026-07-09",
+"end": "2026-07-12",
+"raw": "Principado 10m. Copa Princesa x2"
+},
+{
+"start": "2026-07-09",
+"end": "2026-07-12",
+"raw": "Trasona 10m. Perdigon de Oro ** NP"
+},
+{
+"start": "2026-07-10",
+"end": "2026-07-12",
+"raw": "Avila Foso Universal Copa Federación"
+},
+{
+"start": "2026-07-12",
+"end": "2026-07-12",
+"raw": "Alcolea (Almería) Minifoso CTO. ANDALUCIA"
+},
+{
+"start": "2026-07-17",
+"end": "2026-07-19",
+"raw": "Parga F-Class 1000yd Campeonato de España"
+},
+{
+"start": "2026-07-17",
+"end": "2026-07-19",
+"raw": "Zamora BR-50 Copa Iberica"
+},
+{
+"start": "2026-07-17",
+"end": "2026-07-19",
+"raw": "Mollet Foso Olímpico Copa del Rey"
+},
+{
+"start": "2026-07-18",
+"end": "2026-07-19",
+"raw": "Somontes Skeet Copa de España"
+},
+{
+"start": "2026-07-18",
+"end": "2026-07-19",
+"raw": "Viveiro Std T. Marisco ** NP"
+},
+{
+"start": "2026-07-20",
+"end": "2026-07-29",
+"raw": "China 10/25/50m. Trap / Skeet ISSF World Cup"
+},
+{
+"start": "2026-07-21",
+"end": "2026-07-31",
+"raw": "Serbia Rifle Pistola VI Copa del Mundo"
+},
+{
+"start": "2026-07-24",
+"end": "2026-07-25",
+"raw": "Vera (Almería) RRTT Arma Corta CTO. ANDALUCIA RR.TT."
+},
+{
+"start": "2026-07-26",
+"end": "2026-07-26",
+"raw": "Las Gabias (Granada) Foso Universal CTO. ANDALUCIA EQUIPOS PROV. F.U."
+},
+{
+"start": "2026-07-30",
+"end": "2026-08-02",
+"raw": "As Pontes Shotgun Cto. España Escopeta"
+},
+{
+"start": "2026-07-31",
+"end": "2026-08-02",
+"raw": "Zaragoza Foso Universal Campeonato de Europa"
+},
+{
+"start": "2026-07-31",
+"end": "2026-08-02",
+"raw": "Sogito Handgun 4ª Fase Copa Presidente"
+},
+{
+"start": "2026-08-01",
+"end": "2026-08-01",
+"raw": "D 2"
+},
+{
+"start": "2026-08-10",
+"end": "2026-08-16",
+"raw": "Bisley G.B. F-Class World Championship 2026"
+},
+{
+"start": "2026-08-14",
+"end": "2026-08-16",
+"raw": "Ensidesa Foso Universal G.Prix Rfedeto CANCELADO"
+},
+{
+"start": "2026-08-15",
+"end": "2026-08-22",
+"raw": "Eisenstadt AA.HH. Cto. del Mundo Austria"
+},
+{
+"start": "2026-08-21",
+"end": "2026-09-03",
+"raw": "Taranto (Italia) Pistola y Carabina Trap y Skeet Juegos del Mediterraneo"
+},
+{
+"start": "2026-08-21",
+"end": "2026-08-31",
+"raw": "Tallin (Estonia) 25/50m. Cto. de Europa U18"
+},
+{
+"start": "2026-08-23",
+"end": "2026-08-30",
+"raw": "Santiago de Chile 10/25/50m. Cpto. Iberoamericano P. Standard y P. F. Central"
+},
+{
+"start": "2026-09-03",
+"end": "2026-09-05",
+"raw": "Trasona Deportivas 50m. Copa de España P.Libre y Tendido"
+},
+{
+"start": "2026-09-03",
+"end": "2026-09-06",
+"raw": "Sogito Deportivas 25 m. Copa de España Standard, F. Central y 9 mm"
+},
+{
+"start": "2026-09-03",
+"end": "2026-09-06",
+"raw": "As Pontes Handgun Campeonato de España"
+},
+{
+"start": "2026-09-04",
+"end": "2026-09-06",
+"raw": "Sabadell BR-50 AIRE VP, VL Copa Federación"
+},
+{
+"start": "2026-09-04",
+"end": "2026-09-06",
+"raw": "C. Valenciana Foso Olimpico Cto. Esp. Autonomias"
+},
+{
+"start": "2026-09-06",
+"end": "2026-09-12",
+"raw": "Portugal BR-50 Campeonato del Mundo"
+},
+{
+"start": "2026-09-09",
+"end": "2026-09-13",
+"raw": "Granada 10/25/50m. Trap/Skeet Training Camp"
+},
+{
+"start": "2026-09-10",
+"end": "2026-09-13",
+"raw": "Valladolid Trap 5 Cto. Europa"
+},
+{
+"start": "2026-09-10",
+"end": "2026-09-13",
+"raw": "Principado Armas Deportivas Campeonato España Veteranos"
+},
+{
+"start": "2026-09-12",
+"end": "2026-09-20",
+"raw": "Porpetto (Italia) Trap / Skeet ISSF WC Juniors"
+},
+{
+"start": "2026-09-17",
+"end": "2026-09-20",
+"raw": "Granada Armas Olímpicas Campeonato de España"
+},
+{
+"start": "2026-09-17",
+"end": "2026-09-20",
+"raw": "Granada Libre y Tendido Campeonato de España"
+},
+{
+"start": "2026-09-17",
+"end": "2026-09-20",
+"raw": "Granada 10m. GPI Las Gabias"
+},
+{
+"start": "2026-09-17",
+"end": "2026-09-20",
+"raw": "Granada Foso Olimpico GPI Bereta"
+},
+{
+"start": "2026-09-18",
+"end": "2026-09-20",
+"raw": "Canto Blanco Skeet Copa Federación"
+},
+{
+"start": "2026-09-18",
+"end": "2026-09-20",
+"raw": "Aizoain 50-200m. Cto. de España PRS Multidistancias"
+},
+{
+"start": "2026-09-21",
+"end": "2026-10-04",
+"raw": "Grecia Shotgun Cto. del Mundo Shotgun"
+},
+{
+"start": "2026-09-25",
+"end": "2026-09-27",
+"raw": "Zaragoza AA.HH. Campeonato de España Retrocarga"
+},
+{
+"start": "2026-09-25",
+"end": "2026-09-27",
+"raw": "Ensidesa Mini Rifle Campeonato de España"
+},
+{
+"start": "2026-09-25",
+"end": "2026-09-27",
+"raw": "Carmona Trap-5 Campeonato de España Sevilla"
+},
+{
+"start": "2026-09-25",
+"end": "2026-09-27",
+"raw": "Torres de Segre F-Class 300m. Copa Presidente"
+},
+{
+"start": "2026-09-27",
+"end": "2026-10-13",
+"raw": "Atenas Trap / Skeet Cto. de Europa"
+},
+{
+"start": "2026-10-01",
+"end": "2026-10-04",
+"raw": "Granada Deportivas 10/25m. Campeonato de España Standard, F. Central, 9 mm"
+},
+{
+"start": "2026-10-01",
+"end": "2026-10-04",
+"raw": "Almería Handgun V Fase Copa Presidente Club Vera"
+},
+{
+"start": "2026-10-02",
+"end": "2026-10-04",
+"raw": "Naquera Varmint y R.R. Campeonato de España Rifle Grueso Calibre"
+},
+{
+"start": "2026-10-02",
+"end": "2026-10-04",
+"raw": "Mollet Foso Universal Cto. Esp. Autonomias"
+},
+{
+"start": "2026-10-03",
+"end": "2026-10-15",
+"raw": "Korea Rifle Pistola VI Escopeta VI Cto del Mundo"
+},
+{
+"start": "2026-10-08",
+"end": "2026-10-16",
+"raw": "El Cairo 10/25/50m. ISSF World Cup"
+},
+{
+"start": "2026-10-09",
+"end": "2026-10-11",
+"raw": "Las Gabias (Granada) Foso Olímpico TECNIFICACIÓN JJ.PP. F.O."
+},
+{
+"start": "2026-10-09",
+"end": "2026-10-11",
+"raw": "Las Gabias F-Class 300m. Campeonato de España"
+},
+{
+"start": "2026-10-09",
+"end": "2026-10-11",
+"raw": "Chiloeches BR-50 Campeonato de España"
+},
+{
+"start": "2026-10-15",
+"end": "2026-10-17",
+"raw": "Huesca Handgun 6ª Fase Copa Presidente Club Loreto"
+},
+{
+"start": "2026-10-16",
+"end": "2026-10-18",
+"raw": "Principado AA.HH. 1ª Fase Copa Presidente 2027"
+},
+{
+"start": "2026-10-18",
+"end": "2026-10-18",
+"raw": "Huesca PCC Cto. España PCC Club Loreto"
+},
+{
+"start": "2026-10-21",
+"end": "2026-10-25",
+"raw": "Lisboa 10/25/50m. Match Ibérico"
+},
+{
+"start": "2026-10-23",
+"end": "2026-10-25",
+"raw": "Naquera BR-50 Aire Copa Presidente"
+},
+{
+"start": "2026-10-24",
+"end": "2026-10-25",
+"raw": "Las Gabias (Granada) FClass 50+100 m. CTO. ANDALUCIA FCLASS 50+100 M. Combinada"
+},
+{
+"start": "2026-10-27",
+"end": "2026-10-31",
+"raw": "Niw Taipei Trap / Skeet Fisu Golt University championShip Chinese Taipei"
+},
+{
+"start": "2026-11-01",
+"end": "2026-11-15",
+"raw": "Doha (Qatar) 10/25/50m. Trap / Skeet ISSF WCH"
+},
+{
+"start": "2026-11-06",
+"end": "2026-11-08",
+"raw": "Naquera JJ.PP. Copa del Rey x2 Individual, Solo"
+},
+{
+"start": "2026-11-07",
+"end": "2026-11-08",
+"raw": "El Puerto Sta. Mª (Cádiz) AA.HH. FASE FINAL LIGA ANDALUZA AA.HH."
+},
+{
+"start": "2026-11-13",
+"end": "2026-11-15",
+"raw": "Naquera F-Class Rimfire Campeonato de España Combinada 50-100 m."
+},
+{
+"start": "2026-11-13",
+"end": "2026-11-15",
+"raw": "Tarrasa Handgun VII Fase Copa Presidente Club Terrassa"
+},
+{
+"start": "2026-11-13",
+"end": "2026-11-15",
+"raw": "Jaén 10 m. CTO. ANDALUCIA AIRE COMPRIMIDO"
+},
+{
+"start": "2026-11-21",
+"end": "2026-11-22",
+"raw": "Camas (Sevilla) 10 m. TECNIFICACIÓN F.A.T.O. AIRE COMPR."
+},
+{
+"start": "2026-11-25",
+"end": "2026-11-29",
+"raw": "Logroño 10m. Cto. España de Clubes"
+},
+{
+"start": "2026-11-26",
+"end": "2026-11-29",
+"raw": "Logroño 10m. GPI La Rioja"
+},
+{
+"start": "2026-12-04",
+"end": "2026-12-07",
+"raw": "Granada 10m. Campeonato de España"
+},
+{
+"start": "2026-12-04",
+"end": "2026-12-07",
+"raw": "Granada 10m. Cto. España Parejas Mixtas"
+},
+{
+"start": "2026-12-07",
+"end": "2026-12-19",
+"raw": "Emiratos Arabes Rifle Pistola VI Escopeta VI Copa del Mundo"
+}
+]
